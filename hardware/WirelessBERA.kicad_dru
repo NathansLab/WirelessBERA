@@ -1,0 +1,55 @@
+(version 1.1)
+#----------------------------------------------------------------------------------------------------
+# AISLER custom DRC rules.
+# Make Hardware less Hard. 
+#----------------------------------------------------------------------------------------------------
+# We created these custom rules to warn you if your design hits our manufacturing bounderies. 
+# You can disable the custom rules by commenting them out, though we advise against it.  
+# These rules are valid as of May 2024, please check for updated ones on our forum.
+# Please also note that these rules do not catch every single manufacturing limit. 
+# If you are not certain please check the documentation on our website. 
+#----------------------------------------------------------------------------------------------------
+
+# As our tooling is finite we only support certain trough hole sizes. 
+# Please keep the plated trough holes below 5.6mm in diameter. 
+# We provide a community post for more details: 
+# https://community.aisler.net/t/plated-and-non-plated-holes/50
+
+(rule "Max Drill Hole Size PTH"
+    (constraint hole_size (max 5.6mm))
+    (condition "A.Pad_Type == 'Through-hole'"))
+
+#----------------------------------------------------------------------------------------------------
+# We dont support micro or buried vias
+
+(rule "Disallow buried via"
+   (constraint disallow buried_via))
+
+(rule "Disallow micro via"
+   (constraint disallow micro_via))
+
+#----------------------------------------------------------------------------------------------------
+# The Soldermask is pulled back by a bit to account for slight missalignment during manufacturing. 
+# We do this on our own, please keep the soldermask margin set to 0. 
+ 
+(rule "Disallow solder mask margin overrides"
+    (constraint assertion "A.Soldermask_Margin_Override == 0mm || A.Soldermask_Margin_Override == null")
+    (condition "A.Type == 'Pad'"))
+
+#----------------------------------------------------------------------------------------------------
+# Custom layout rules to assist manual routing
+
+# 1. Analog to Digital Isolation clearance
+# Enforce a wider clearance (0.35 mm) between high-speed digital signals and sensitive analog paths.
+(rule "Analog to Digital Clearance"
+    (constraint clearance (min 0.35mm))
+    (condition "A.NetClass == 'Analog' && B.NetClass == 'Digital'"))
+
+# 2. Power Trace Neckdown in Fine-Pitch Areas
+# Allows power tracks (typically 0.30mm or 0.35mm wide) to neck down to 0.15mm when routed 
+# inside a named Rule Area (create a Rule Area in KiCad, under properties set its name to "Neckdown_Zone").
+(rule "Power Neckdown in Fine Pitch Areas"
+    (constraint track_width (min 0.15mm) (opt 0.20mm))
+    (condition "A.insideArea('Neckdown_Zone') && (A.NetClass == 'Power_High' || A.NetClass == 'Power_Low')"))
+
+#----------------------------------------------------------------------------------------------------

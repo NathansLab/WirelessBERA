@@ -1,0 +1,45 @@
+# KiCad project files (generated/cache)
+*-cache.lib
+*-rescue.dcm
+*-rescue.lib
+fp-info-cache
+*.bak
+*.lck
+~*.kicad_*
+
+# KiCad autosave
+*.kicad_sch-bak
+*.kicad_pcb-bak
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+desktop.ini
+
+# Reports (auto-generated)
+*.rpt
+*-erc.rpt
+*-drc.rpt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# KiCad .history (local undo history, not needed in repo)
+.history/
+.history */
+
+# Temp files
+*.tmp
+*.temp
+/WirelessBERA-backups
+hardware/WirelessBERA-backups/
+
+# Exclude local parts storage
+docs/datasheets/parts_storage/
+
+

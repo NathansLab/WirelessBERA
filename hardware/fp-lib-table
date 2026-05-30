@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "BERA Project Specific Footprints")(type "KiCad")(uri "${KIPRJMOD}/library/footprints")(options "")(descr "BERA Project Footprints"))
+)

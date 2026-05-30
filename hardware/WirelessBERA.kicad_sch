@@ -1,0 +1,174 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "9923f3cb-fea3-442a-b105-4e616c3606bf")
+	(paper "A4")
+	(title_block
+		(title "Wireless BERA")
+		(date "2026-04-10")
+		(rev "1.0")
+	)
+	(lib_symbols)
+	(sheet
+		(at 160 40)
+		(size 40 25)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "12b20bff-ca54-42ac-a368-641c19ed9a4f")
+		(property "Sheetname" "Analog"
+			(at 160 39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Analog.kicad_sch"
+			(at 160.02 65.532 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "WirelessBERA"
+				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 99.06 82.55)
+		(size 40 25)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4568b57d-2a22-43de-ab17-9ec5028fa32f")
+		(property "Sheetname" "Power"
+			(at 99.06 81.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 99.06 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "WirelessBERA"
+				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100 40)
+		(size 40 25)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "59a77f1b-99cc-4fa7-8433-3094cca92854")
+		(property "Sheetname" "MCU"
+			(at 100 39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 99.822 65.532 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "WirelessBERA"
+				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "SimpleTemplate.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WAcCP0TAMadXSEA1TZqxSYVAlyFSfH7niqiHIMjUMnMiesInU1UVe0AYQJUAE0AVgD46+DX
+				ZG6mtcmbyd7YPcZFqqqTtubDC3LyilQ1a/volh/yJwAAgY7nvaTzmrop47+hd2Jn6ozfy056hgAI
+				UFat1WCpbRLfMvuHAAiUHFAXeuDlEAL/fUUNlW1aBShRKIPk7fe8402zkxmDLzZtOnFALH7t4t9v
+				13yHpAdnr6d+0scRg5TSadt2SLq1tJpW7cu65kVrf/a+nKb20SMf9Dzi/5WPVyxr6kedh75olUy0
+				rZJdOga20B6kQTWrWTWt9ZqITliljMMYXWbZNo00aIW/x8g5i7I/6WCLMPdLz6ayXTGRrZp+30er
+				gQAgMaZ2ZbvEnalO/SEPAYpah4mDs2AZa95j2YNF2OtKODiMwmWZYzPMQwSTZBCtcRvgFb2/Tdm2
+				iUlrBuE0TvzL2WprePvdNZugUBKE2tTvjRljOnvHo1QyCkYZ3S0U8dcHq12yb6DBSKgYGhJJkhQy
+				zAFgRKTmyhwjKVzCHUzbrAhc2WMQkrjVEvx4eGbeTeQrgDuvMbUtgGNyE42J4HjwlXvhAHRhlAXE
+				AEI7dGzbWUuy7ckUcoVZKj++KX3oQk/RABEBNQRz0lmdNVcFgVhjaQlBLOkrtghAAjMbAbAy+yOQ
+				eAkmyW9i0SKSzVklNjqLAS56cIRS9iE4sY+WofGLoSJM0MvEnJ/Oy5ITCOM3yZnMo/XLuYMXCV35
+				ay+Ld+bDt0IIMo+KXDF5q5mFMe7BIrxCFY08lvueeTMGxMngaoHiYtRF6yRjv619txJi0YYBwx9V
+				7+SOjv2yfrLWKHzBXfH+dz1CMz5eFQ==|
+			)
+			(checksum "09D87206202025145122CBAE84F62114")
+		)
+	)
+)

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BERA Symbol Lib")(type "KiCad")(uri "${KIPRJMOD}/../library/symbols/BERA.kicad_sym")(options "")(descr ""))
+)
