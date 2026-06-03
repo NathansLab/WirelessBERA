@@ -56,6 +56,45 @@ Three LTC6373 Daughterboards stacked on top of the main Wireless BERA board to p
 - **EDA:** KiCad 10
 - **Fabrication target:** Aisler (4-layer, HASL)
 - **Firmware:** ESP-IDF (ESP32-S3) — see `firmware/`
+- **Hardware Auditing & Design Review:** [kicad-happy](https://github.com/aklofas/kicad-happy) (located locally in `kicad-happy/`)
+
+### Running the Hardware Audit
+To perform a full design review of the schematic, layout, and EMC pre-compliance:
+```bash
+# Schematic Analysis
+/opt/homebrew/bin/python3 kicad-happy/skills/kicad/scripts/analyze_schematic.py hardware/WirelessBERA.kicad_sch --output scratch/sch_analysis.json
+
+# PCB Layout Analysis
+/opt/homebrew/bin/python3 kicad-happy/skills/kicad/scripts/analyze_pcb.py hardware/WirelessBERA.kicad_pcb --full --output scratch/pcb_analysis.json
+
+# Cross-Domain Verification
+/opt/homebrew/bin/python3 kicad-happy/skills/kicad/scripts/cross_analysis.py --schematic scratch/sch_analysis.json --pcb scratch/pcb_analysis.json --output scratch/cross_analysis_results.json
+
+# EMC Pre-Compliance Audit
+/opt/homebrew/bin/python3 kicad-happy/skills/emc/scripts/analyze_emc.py --schematic scratch/sch_analysis.json --pcb scratch/pcb_analysis.json --output scratch/emc_analysis.json
+```
+---
+
+## Upstream Tool Updates & Custom Features
+
+The local copy of `kicad-happy/` contains custom extensions (such as the custom footprint/package verification checks in `datasheet_verify.py` and saving logic in `analyze_schematic.py`). 
+
+To pull future improvements from the upstream [kicad-happy repository](https://github.com/aklofas/kicad-happy) while keeping custom modifications:
+
+1. Configure the upstream remote inside `kicad-happy/`:
+   ```bash
+   cd kicad-happy
+   git remote add upstream https://github.com/aklofas/kicad-happy.git
+   ```
+2. Fetch and merge upstream changes:
+   ```bash
+   git fetch upstream
+   git merge upstream/main
+   ```
+
+> [!IMPORTANT]
+> **AI Agent Reminder / Instruction:**
+> When resuming or initiating a design audit, check if there are new updates in the upstream `kicad-happy` repository. Fetch them, merge them into our local directory, and verify that the custom footprint verification code inside `skills/datasheets/scripts/datasheet_verify.py` and output logic inside `skills/kicad/scripts/analyze_schematic.py` are preserved and function correctly.
 
 ---
 

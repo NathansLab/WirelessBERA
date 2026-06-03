@@ -47,3 +47,6 @@ kicad-happy/
 scratch/
 
 
+/hardware/datasheets
+/simulation_temp
+hardware/.kicad-push

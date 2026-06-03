@@ -12632,7 +12632,7 @@
 				)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "4.99k"
 			(at 175.006 56.388 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12675,7 +12675,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW0603?????"
+		(property "MPN" "CRCW06034K99FKEA"
 			(at 172.72 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -12686,7 +12686,7 @@
 				)
 			)
 		)
-		(property "Supplier" "?"
+		(property "Supplier" "Lager"
 			(at 172.72 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -12697,7 +12697,7 @@
 				)
 			)
 		)
-		(property "Supplier_PN" "?"
+		(property "Supplier_PN" "T02"
 			(at 172.72 58.42 0)
 			(hide yes)
 			(show_name no)

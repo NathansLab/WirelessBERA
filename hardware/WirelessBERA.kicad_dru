@@ -34,7 +34,7 @@
  
 (rule "Disallow solder mask margin overrides"
     (constraint assertion "A.Soldermask_Margin_Override == 0mm || A.Soldermask_Margin_Override == null")
-    (condition "A.Type == 'Pad'"))
+    (condition "A.Type == 'Pad' && !A.Reference.matches('FID*')"))
 
 #----------------------------------------------------------------------------------------------------
 # Custom layout rules to assist manual routing
