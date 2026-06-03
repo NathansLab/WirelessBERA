@@ -42,4 +42,8 @@ hardware/WirelessBERA-backups/
 # Exclude local parts storage
 docs/datasheets/parts_storage/
 
+# Hardware analysis tool & cache
+kicad-happy/
+scratch/
+
 

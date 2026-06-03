@@ -6876,7 +6876,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "014bd7d7-c016-45b6-ad7e-123949caac85")
-		(property "Reference" "TP16"
+		(property "Reference" "TP12"
 			(at 116.84 103.378 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6938,7 +6938,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/59a77f1b-99cc-4fa7-8433-3094cca92854"
-					(reference "TP16")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -6955,7 +6955,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "015ea449-c0cc-47c7-b870-e92ee0f75c35")
-		(property "Reference" "TP19"
+		(property "Reference" "TP15"
 			(at 124.46 103.378 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7017,7 +7017,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/59a77f1b-99cc-4fa7-8433-3094cca92854"
-					(reference "TP19")
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -7723,7 +7723,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "123974ff-0390-4c65-84e0-093e5202af74")
-		(property "Reference" "J3"
+		(property "Reference" "J5"
 			(at 25.908 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7863,7 +7863,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/59a77f1b-99cc-4fa7-8433-3094cca92854"
-					(reference "J3")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -8035,7 +8035,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c9ef6a0-c89b-4351-bfcf-732c073edba6")
-		(property "Reference" "TP9"
+		(property "Reference" "TP5"
 			(at 200.152 63.246 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8097,7 +8097,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/59a77f1b-99cc-4fa7-8433-3094cca92854"
-					(reference "TP9")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -8499,7 +8499,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "46f1a1b5-2cb4-4713-9aea-1f16d3fa4084")
-		(property "Reference" "TP10"
+		(property "Reference" "TP6"
 			(at 203.962 65.786 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8561,7 +8561,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/59a77f1b-99cc-4fa7-8433-3094cca92854"
-					(reference "TP10")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -8656,7 +8656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e1aaa70-712f-425d-a46b-fc3e4ba93b2e")
-		(property "Reference" "J2"
+		(property "Reference" "J4"
 			(at 239.395 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8772,7 +8772,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/59a77f1b-99cc-4fa7-8433-3094cca92854"
-					(reference "J2")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -9495,7 +9495,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c9c82e1-bc3b-46c1-8842-350eabf7aab0")
-		(property "Reference" "TP17"
+		(property "Reference" "TP13"
 			(at 119.38 103.378 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9557,7 +9557,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/59a77f1b-99cc-4fa7-8433-3094cca92854"
-					(reference "TP17")
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -9688,7 +9688,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a46c4024-40b6-4116-89c8-99e59bc44b59")
-		(property "Reference" "TP12"
+		(property "Reference" "TP8"
 			(at 200.152 75.946 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9750,7 +9750,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/59a77f1b-99cc-4fa7-8433-3094cca92854"
-					(reference "TP12")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -9767,7 +9767,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a80aefef-2e44-4413-a3ef-9c0e19e6cae1")
-		(property "Reference" "TP18"
+		(property "Reference" "TP14"
 			(at 121.92 103.378 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9829,7 +9829,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/59a77f1b-99cc-4fa7-8433-3094cca92854"
-					(reference "TP18")
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -10116,7 +10116,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aef948d6-f9db-4ff4-a34f-0d1f373a0fdd")
-		(property "Reference" "TP11"
+		(property "Reference" "TP7"
 			(at 196.342 70.866 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10178,7 +10178,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/59a77f1b-99cc-4fa7-8433-3094cca92854"
-					(reference "TP11")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -10273,7 +10273,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b8db9f26-bf91-43ba-8c16-8ef0cf25b4e3")
-		(property "Reference" "TP13"
+		(property "Reference" "TP9"
 			(at 205.232 78.486 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10335,7 +10335,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/59a77f1b-99cc-4fa7-8433-3094cca92854"
-					(reference "TP13")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -10466,7 +10466,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ba2d38d3-3791-4ae3-8697-3b95884ac100")
-		(property "Reference" "TP8"
+		(property "Reference" "TP4"
 			(at 196.342 60.706 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10528,7 +10528,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/59a77f1b-99cc-4fa7-8433-3094cca92854"
-					(reference "TP8")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -10659,7 +10659,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be81b514-6572-434e-990f-28df187ef306")
-		(property "Reference" "TP15"
+		(property "Reference" "TP11"
 			(at 114.3 103.378 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10721,7 +10721,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/59a77f1b-99cc-4fa7-8433-3094cca92854"
-					(reference "TP15")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -12276,7 +12276,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f7aed9b1-0348-4b29-bc25-a3b6d4e5f787")
-		(property "Reference" "TP14"
+		(property "Reference" "TP10"
 			(at 111.76 103.378 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12338,7 +12338,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/59a77f1b-99cc-4fa7-8433-3094cca92854"
-					(reference "TP14")
+					(reference "TP10")
 					(unit 1)
 				)
 			)

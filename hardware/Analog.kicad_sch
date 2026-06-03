@@ -2154,6 +2154,633 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_PinHeader_Generic_2.54mm:PinHeader_01x02_2.54mm_Vertical"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PinHeader_01x02_2.54mm_Vertical"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300211121.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Through hole straight pin header, 1x02, 2.54mm pitch, single row"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "61300211121"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFG" "Wurth Elektronik"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "AIS-LIB" "TRUE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "1x2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PinHeader_01x02_2.54mm_Vertical_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_PinHeader_Generic_2.54mm:PinHeader_01x03_2.54mm_Vertical"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PinHeader_01x03_2.54mm_Vertical"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300311121.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Through hole straight pin header, 1x03, 2.54mm pitch, single row"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "61300311121"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFG" "Wurth Elektronik"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "AIS-LIB" "TRUE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "1x3"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PinHeader_01x03_2.54mm_Vertical_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_PinHeader_Generic_2.54mm:PinHeader_01x04_2.54mm_Vertical"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PinHeader_01x04_2.54mm_Vertical"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300411121.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Through hole straight pin header, 1x04, 2.54mm pitch, single row"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "61300411121"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFG" "Wurth Elektronik"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "AIS-LIB" "TRUE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "1x4"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PinHeader_01x04_2.54mm_Vertical_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Sensor_Audio:IM73A135V01"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2810,12 +3437,6 @@
 		(uuid "2346ccc1-51d1-4c2e-92d5-96d8e00bc857")
 	)
 	(junction
-		(at 81.28 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "234a3832-9921-4fc1-abb4-f59ce3880ad1")
-	)
-	(junction
 		(at 69.85 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2828,28 +3449,10 @@
 		(uuid "2a3f3463-7012-4edb-baa5-58ef1c27553a")
 	)
 	(junction
-		(at 36.83 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2c2f324c-1396-4101-b78c-9c47fcd2d57e")
-	)
-	(junction
-		(at 213.36 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2c8dbc80-e327-4ec0-a00c-16d7078920d9")
-	)
-	(junction
 		(at 102.87 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3869f2ac-c1b3-429e-8d62-853096c043de")
-	)
-	(junction
-		(at 36.83 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3d617c05-5cc3-4306-9fb2-a7375a436132")
 	)
 	(junction
 		(at 78.74 73.66)
@@ -2864,12 +3467,6 @@
 		(uuid "5f07594f-a511-4366-aae9-8e3f1db24653")
 	)
 	(junction
-		(at 36.83 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "60bf6cdb-3460-426c-a497-cf914d09f15b")
-	)
-	(junction
 		(at 88.9 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2880,12 +3477,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "739f7ac1-7d3a-449c-a355-c9d16e765516")
-	)
-	(junction
-		(at 83.82 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "79fa19bd-cf9d-476c-b9df-8d7339572366")
 	)
 	(junction
 		(at 175.26 154.94)
@@ -2906,12 +3497,6 @@
 		(uuid "9607efcc-be17-4024-8b73-5cf4c9124f5c")
 	)
 	(junction
-		(at 58.42 189.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "96eb5cd3-c3ba-4002-8cfe-0229ceb0061f")
-	)
-	(junction
 		(at 82.55 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2922,6 +3507,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0626ba1-f1e8-4dec-be61-3654ee5e46ee")
+	)
+	(junction
+		(at 172.72 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a174b1a0-24d0-46ee-89a1-f6037994077b")
 	)
 	(junction
 		(at 147.32 165.1)
@@ -2966,28 +3557,10 @@
 		(uuid "c72aea2b-afd9-4180-8f86-64c0ef167b22")
 	)
 	(junction
-		(at 58.42 186.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7998f39-0b3f-404b-87f0-23e4cbbabb32")
-	)
-	(junction
 		(at 52.07 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cbc68fb9-8b16-4d11-ae03-41a8b0cf4964")
-	)
-	(junction
-		(at 76.2 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd6ae582-94e0-4d56-9c35-701d29e0065d")
-	)
-	(junction
-		(at 78.74 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d18449b8-d93b-4dcb-b653-d508a753e6c9")
 	)
 	(junction
 		(at 72.39 186.69)
@@ -2996,10 +3569,10 @@
 		(uuid "d645f51b-fbbb-4209-949d-06c7bd40656d")
 	)
 	(junction
-		(at 165.1 49.53)
+		(at 170.18 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e7278354-1d2b-40c1-b995-37aa501c4576")
+		(uuid "df9a544e-b8d5-43bf-bc97-b11349de74e2")
 	)
 	(junction
 		(at 106.68 24.13)
@@ -3008,28 +3581,10 @@
 		(uuid "ea692372-c2f2-416d-9614-aad83a1a9712")
 	)
 	(junction
-		(at 36.83 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eca88b65-9efe-4971-9caa-615206f4e8c3")
-	)
-	(junction
-		(at 213.36 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ecb43a1a-f754-4fff-9e32-75648bd62a8c")
-	)
-	(junction
 		(at 172.72 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9035ada-4e2a-44ac-9f03-f8b59a3d52b1")
-	)
-	(junction
-		(at 165.1 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa6b7ad8-0460-4d1a-97fd-2cce0fdb36ba")
 	)
 	(junction
 		(at 115.57 59.69)
@@ -3089,7 +3644,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 163.83) (xy 44.45 163.83)
+			(xy 26.67 163.83) (xy 44.45 163.83)
 		)
 		(stroke
 			(width 0)
@@ -3099,13 +3654,13 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 49.53) (xy 165.1 49.53)
+			(xy 241.3 58.42) (xy 257.81 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0bfe80a6-1efa-429d-aee7-49ce89ad0930")
+		(uuid "0a62aec0-e084-437e-ae0a-11f8a5a0380b")
 	)
 	(wire
 		(pts
@@ -3169,6 +3724,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 114.3) (xy 95.25 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "106f2d87-4571-43ca-bc76-581fde3f8161")
+	)
+	(wire
+		(pts
 			(xy 147.32 128.27) (xy 147.32 125.73)
 		)
 		(stroke
@@ -3189,6 +3754,26 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 156.21) (xy 44.45 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1198c86a-6a2a-4b04-8ee6-74e4a1a5fecd")
+	)
+	(wire
+		(pts
+			(xy 247.65 77.47) (xy 260.35 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "119deb0d-ea3c-48c1-a5c6-d3d81b7a9327")
+	)
+	(wire
+		(pts
 			(xy 77.47 189.23) (xy 77.47 186.69)
 		)
 		(stroke
@@ -3199,7 +3784,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 186.69) (xy 62.23 186.69)
+			(xy 53.34 186.69) (xy 62.23 186.69)
 		)
 		(stroke
 			(width 0)
@@ -3239,7 +3824,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 158.75) (xy 44.45 158.75)
+			(xy 26.67 158.75) (xy 44.45 158.75)
 		)
 		(stroke
 			(width 0)
@@ -3296,16 +3881,6 @@
 			(type default)
 		)
 		(uuid "1f1019d6-6d9e-441a-843d-a358b7421e2e")
-	)
-	(wire
-		(pts
-			(xy 83.82 133.35) (xy 95.25 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f3b57ea-3766-4441-8b1d-288a80565b42")
 	)
 	(wire
 		(pts
@@ -3389,6 +3964,26 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 69.85) (xy 170.18 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2daf5d32-b7b5-4d86-b6da-74c5de784ec4")
+	)
+	(wire
+		(pts
+			(xy 166.37 62.23) (xy 172.72 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32333d41-b504-44e1-8cb9-ecd584d69903")
+	)
+	(wire
+		(pts
 			(xy 175.26 158.75) (xy 175.26 154.94)
 		)
 		(stroke
@@ -3419,16 +4014,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 73.66) (xy 165.1 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a4fd1a6-3b67-4258-8cd1-7e0a5d4131d0")
-	)
-	(wire
-		(pts
 			(xy 139.7 165.1) (xy 147.32 165.1)
 		)
 		(stroke
@@ -3436,6 +4021,16 @@
 			(type default)
 		)
 		(uuid "3d3836e0-10d2-4251-9c9f-989e14a27020")
+	)
+	(wire
+		(pts
+			(xy 86.36 106.68) (xy 95.25 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e08199c-3aaa-4a87-8db0-8fb5493f2128")
 	)
 	(wire
 		(pts
@@ -3476,6 +4071,16 @@
 			(type default)
 		)
 		(uuid "484461a0-69b8-4e22-a517-36c3e3493051")
+	)
+	(wire
+		(pts
+			(xy 241.3 63.5) (xy 257.81 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4851e2c7-c530-4987-8af0-df7c9b2fbd47")
 	)
 	(wire
 		(pts
@@ -3539,16 +4144,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 189.23) (xy 58.42 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "522fae58-b866-43f3-9978-f8240ed13f52")
-	)
-	(wire
-		(pts
 			(xy 45.72 134.62) (xy 52.07 134.62)
 		)
 		(stroke
@@ -3579,16 +4174,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 156.21) (xy 44.45 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56e8e917-bbad-45e3-94b2-fc67f0830b32")
-	)
-	(wire
-		(pts
 			(xy 106.68 30.48) (xy 106.68 24.13)
 		)
 		(stroke
@@ -3609,6 +4194,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 111.76) (xy 95.25 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bbfbf16-e770-4537-a56f-17c0f5fc8b5d")
+	)
+	(wire
+		(pts
 			(xy 62.23 186.69) (xy 62.23 185.42)
 		)
 		(stroke
@@ -3616,6 +4211,16 @@
 			(type default)
 		)
 		(uuid "5c4e981d-bea9-4e96-9efe-b9cf7daabf8f")
+	)
+	(wire
+		(pts
+			(xy 250.19 99.06) (xy 247.65 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e2b6fe4-c01c-4f34-b6f0-5fbc27f00760")
 	)
 	(wire
 		(pts
@@ -3679,16 +4284,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 156.21) (xy 36.83 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b4d90d0-5ec0-4101-9d5e-92a3a9e25449")
-	)
-	(wire
-		(pts
 			(xy 135.89 67.31) (xy 135.89 76.2)
 		)
 		(stroke
@@ -3696,16 +4291,6 @@
 			(type default)
 		)
 		(uuid "6cd18104-1ab4-4bcc-94c3-de8a7f6003ed")
-	)
-	(wire
-		(pts
-			(xy 26.67 163.83) (xy 36.83 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f8918ac-282c-46ec-8ef6-99cf1799697e")
 	)
 	(wire
 		(pts
@@ -3729,7 +4314,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 128.27) (xy 78.74 128.27)
+			(xy 73.66 128.27) (xy 95.25 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3799,16 +4384,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 130.81) (xy 95.25 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b6de455-3d30-41c4-baa3-073d87c72718")
-	)
-	(wire
-		(pts
 			(xy 88.9 29.21) (xy 95.25 29.21)
 		)
 		(stroke
@@ -3819,7 +4394,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 130.81) (xy 81.28 130.81)
+			(xy 78.74 130.81) (xy 95.25 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3856,6 +4431,16 @@
 			(type default)
 		)
 		(uuid "905e3375-7c81-4889-81a2-7cbb903cf14c")
+	)
+	(wire
+		(pts
+			(xy 250.19 93.98) (xy 247.65 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92f881cd-88d5-4d11-bbda-f4ba24cecf1e")
 	)
 	(wire
 		(pts
@@ -3899,6 +4484,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 85.09) (xy 260.35 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa65fa27-8039-41f0-b59c-5b42e39f8a14")
+	)
+	(wire
+		(pts
 			(xy 88.9 26.67) (xy 95.25 26.67)
 		)
 		(stroke
@@ -3916,6 +4511,26 @@
 			(type default)
 		)
 		(uuid "abf9bde6-4bef-42be-b48d-1f410dbe3078")
+	)
+	(wire
+		(pts
+			(xy 247.65 82.55) (xy 260.35 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2b66458-5f81-4120-9f53-f265b49db783")
+	)
+	(wire
+		(pts
+			(xy 247.65 80.01) (xy 260.35 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5a8a0e7-0291-4265-bf6f-5023af292aac")
 	)
 	(wire
 		(pts
@@ -3999,23 +4614,13 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 73.66) (xy 172.72 73.66)
+			(xy 154.94 73.66) (xy 172.72 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c73a5aed-230e-41df-b990-025538d0d7f1")
-	)
-	(wire
-		(pts
-			(xy 78.74 128.27) (xy 95.25 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9c63d50-4929-43b7-9f23-6d2e018fd945")
 	)
 	(wire
 		(pts
@@ -4029,7 +4634,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 133.35) (xy 83.82 133.35)
+			(xy 81.28 133.35) (xy 95.25 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4049,17 +4654,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 161.29) (xy 36.83 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cef0ae96-70cb-481c-9712-00c3c843bfb2")
-	)
-	(wire
-		(pts
-			(xy 165.1 49.53) (xy 172.72 49.53)
+			(xy 154.94 49.53) (xy 172.72 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4079,7 +4674,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 125.73) (xy 76.2 125.73)
+			(xy 71.12 125.73) (xy 95.25 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4096,16 +4691,6 @@
 			(type default)
 		)
 		(uuid "d4eb9790-f3ef-410e-bfbe-d0459e6e5eec")
-	)
-	(wire
-		(pts
-			(xy 26.67 158.75) (xy 36.83 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d583924b-81c4-43be-9e64-b9ef928e111b")
 	)
 	(wire
 		(pts
@@ -4179,6 +4764,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 109.22) (xy 95.25 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de45c528-5b02-40a5-8afe-8c05146e21af")
+	)
+	(wire
+		(pts
 			(xy 52.07 127) (xy 60.96 127)
 		)
 		(stroke
@@ -4219,6 +4814,26 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 69.85) (xy 172.72 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9b0e93e-e7c2-43a7-b2ca-d944ef82316d")
+	)
+	(wire
+		(pts
+			(xy 250.19 96.52) (xy 247.65 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea76d1d3-ceff-4455-ae21-90c1b745cbad")
+	)
+	(wire
+		(pts
 			(xy 172.72 39.37) (xy 172.72 40.64)
 		)
 		(stroke
@@ -4226,16 +4841,6 @@
 			(type default)
 		)
 		(uuid "eb9e0cfe-3fac-452a-aebe-a2a484fa78f5")
-	)
-	(wire
-		(pts
-			(xy 53.34 186.69) (xy 58.42 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebd16f0d-b057-4df3-a4d6-115722fef6ab")
 	)
 	(wire
 		(pts
@@ -4279,23 +4884,13 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 189.23) (xy 64.77 189.23)
+			(xy 53.34 189.23) (xy 64.77 189.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fa72deb3-e47a-4a8c-aed4-31a241af1960")
-	)
-	(wire
-		(pts
-			(xy 76.2 125.73) (xy 95.25 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa7ec7c7-7758-4c80-8674-58bd0072bc35")
 	)
 	(wire
 		(pts
@@ -4319,7 +4914,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 161.29) (xy 44.45 161.29)
+			(xy 26.67 161.29) (xy 44.45 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4407,6 +5002,16 @@
 		)
 		(uuid "1dd83f6d-1eed-41dd-aa23-f431d5e91cce")
 	)
+	(label "IN-"
+		(at 165.1 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "23aa72da-9684-4f14-85c6-6dca2562f15f")
+	)
 	(label "ElectrodeDRL"
 		(at 39.37 60.96 0)
 		(effects
@@ -4436,6 +5041,26 @@
 			(justify right bottom)
 		)
 		(uuid "39a7346b-8aa8-43d0-8949-faae1e6a94c0")
+	)
+	(label "A2"
+		(at 250.19 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "435bc518-a602-471a-9656-e0441003e6d7")
+	)
+	(label "OUT_2_P"
+		(at 86.36 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a363fb4-fb52-479c-9595-fcd4eea95079")
 	)
 	(label "LTC6373_OUT_P"
 		(at 215.9 58.42 0)
@@ -4477,6 +5102,16 @@
 		)
 		(uuid "73087929-09c9-4f3e-85ee-45b6b6e1b807")
 	)
+	(label "OUT_1_N"
+		(at 86.36 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "745c802e-5ca3-4dfa-9585-b5da90ae0026")
+	)
 	(label "LTC6373_OUT_P"
 		(at 97.79 154.94 0)
 		(effects
@@ -4496,6 +5131,36 @@
 			(justify left bottom)
 		)
 		(uuid "7ed56466-c040-4dde-9e61-1aff727b6b20")
+	)
+	(label "V0CM"
+		(at 255.27 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "81fbd3ba-f2a1-43b4-986e-114810a28a32")
+	)
+	(label "LTC6373_OUT_N"
+		(at 241.3 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f4506af-4e30-4735-9042-edbef9cea84b")
+	)
+	(label "OUT_2_N"
+		(at 86.36 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a734ea81-a03d-4804-92cb-fa7efdd02fde")
 	)
 	(label "LTC6373_OUT_N"
 		(at 97.79 157.48 0)
@@ -4537,6 +5202,16 @@
 		)
 		(uuid "bac4ef66-e028-4a00-9f18-44e84d6c059b")
 	)
+	(label "OUT_1_P"
+		(at 86.36 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb4907c6-68e3-4ea1-af6e-02c3c7ece8a2")
+	)
 	(label "LTC6373_OUT_N"
 		(at 215.9 66.04 0)
 		(effects
@@ -4567,6 +5242,46 @@
 		)
 		(uuid "c38f0c1c-045c-4929-96d4-e4c28611aebe")
 	)
+	(label "IN+"
+		(at 165.1 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c86f4b0a-f754-4540-9a73-fe1a72e397b0")
+	)
+	(label "V0CM"
+		(at 166.37 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0b34f92-ba4a-420f-8280-cbfb996008e0")
+	)
+	(label "LTC6373_OUT_P"
+		(at 241.3 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2f3ff59-526c-4471-ab67-da15da6b8a17")
+	)
+	(label "A1"
+		(at 250.19 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d7b2d37f-023b-498a-b31b-c2111d5b1b0b")
+	)
 	(label "OUT_2_P"
 		(at 119.38 130.81 0)
 		(effects
@@ -4577,6 +5292,16 @@
 		)
 		(uuid "d98c94a9-d23c-4cce-997a-bb412acd5a8b")
 	)
+	(label "IN+"
+		(at 255.27 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d99b33fb-57a2-45f6-80b7-ddbbf8ab2199")
+	)
 	(label "A0"
 		(at 168.91 29.21 0)
 		(effects
@@ -4586,6 +5311,26 @@
 			(justify left bottom)
 		)
 		(uuid "e7f9cf73-f429-481c-969d-75105fd27f92")
+	)
+	(label "A0"
+		(at 250.19 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ec4aecce-eaff-45fb-9a77-f8d4172f0a8e")
+	)
+	(label "IN-"
+		(at 255.27 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f313668f-185b-4cb6-b083-9afb1421c0fa")
 	)
 	(label "Electrode-"
 		(at 39.37 55.88 0)
@@ -4616,6 +5361,30 @@
 			(justify left bottom)
 		)
 		(uuid "fa20c410-d982-4591-9a55-5ffc85d7bced")
+	)
+	(global_label "I2C_SCL"
+		(shape input)
+		(at 25.4 187.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0360daea-1897-4d80-8cbe-77a2a455413f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 14.8553 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(global_label "I2S_DIN"
 		(shape input)
@@ -4665,6 +5434,30 @@
 			)
 		)
 	)
+	(global_label "I2S_DOUT"
+		(shape output)
+		(at 25.4 179.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1829341a-6a12-4d9b-a5b0-84bb057fb5b8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 13.5248 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "I2S_FSYNC"
 		(shape input)
 		(at 26.67 158.75 180)
@@ -4678,6 +5471,30 @@
 		(uuid "327c7550-bb9e-44e3-9937-fcfd0b8417f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 13.7062 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "I2S_BCLK"
+		(shape input)
+		(at 25.4 173.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "36e8dff4-3e29-4e47-9505-9e41b671433c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 13.5853 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4713,6 +5530,54 @@
 			)
 		)
 	)
+	(global_label "I2C_SDA"
+		(shape bidirectional)
+		(at 25.4 190.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "564af56a-c16f-4f3d-a0f8-5bb1557dc669")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 14.7948 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "I2S_DIN"
+		(shape input)
+		(at 25.4 181.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a10e21bf-b920-4a5a-aacd-06a043f88c70")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 15.2181 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "I2S_DOUT"
 		(shape output)
 		(at 26.67 161.29 180)
@@ -4726,6 +5591,30 @@
 		(uuid "a14044cc-d496-4025-be9e-736865aab58f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 14.7948 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "I2S_FSYNC"
+		(shape input)
+		(at 25.4 176.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b8272c15-62af-462e-91f9-43ba64faf74d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 12.4362 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4844,7 +5733,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "02dbe66e-d479-47d8-b4b9-8a71471bc85d")
-		(property "Reference" "TP33"
+		(property "Reference" "TP17"
 			(at 144.526 166.624 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4906,7 +5795,128 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "TP33")
+					(reference "TP17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_PinHeader_Generic_2.54mm:PinHeader_01x04_2.54mm_Vertical")
+		(at 100.33 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "08b52304-3c9e-43f5-a3b9-b934389cdc3f")
+		(property "Reference" "J10"
+			(at 99.822 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PinHeader_01x04_2.54mm_Vertical"
+			(at 102.87 111.7599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 100.33 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300411121.pdf"
+			(at 100.33 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Through hole straight pin header, 1x04, 2.54mm pitch, single row"
+			(at 100.33 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "61300411121"
+			(at 100.33 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "Wurth Elektronik"
+			(at 100.33 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AIS-LIB" "TRUE"
+			(at 100.33 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "cf406156-1c2b-47e1-8caa-b646cb16d18a")
+		)
+		(pin "4"
+			(uuid "bf1ea4d7-437b-4f4a-9451-1f91e767cff7")
+		)
+		(pin "1"
+			(uuid "87061ed3-36f5-4bd3-afbe-89b65b3e7cc1")
+		)
+		(pin "2"
+			(uuid "09d6ca3e-5ad5-4e86-a2de-f758afeebe15")
+		)
+		(instances
+			(project "WirelessBERA"
+				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -4923,7 +5933,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "08f2a5ac-585a-497d-bc43-69dff0a5ee84")
-		(property "Reference" "R40"
+		(property "Reference" "R41"
 			(at 106.934 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5018,7 +6028,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "R40")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -5035,7 +6045,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0c1e325a-d8c1-472a-84cc-51b76fd19db7")
-		(property "Reference" "C52"
+		(property "Reference" "C53"
 			(at 166.624 77.978 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5132,7 +6142,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "C52")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -5149,7 +6159,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "10e6df7d-eefd-4e6f-a5b9-b5d41d8a7724")
-		(property "Reference" "R45"
+		(property "Reference" "R47"
 			(at 139.192 123.698 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5244,232 +6254,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "R45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 83.82 133.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "15bc171a-1505-4b54-bb11-a9ba5c11bd79")
-		(property "Reference" "TP27"
-			(at 82.042 131.826 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 85.09 134.6199 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
-			(at 88.9 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 83.82 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "5000"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier_PN" "534-5000"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "13cad3b6-ca28-428d-a8cf-19f348f76396")
-		)
-		(instances
-			(project "WirelessBERA"
-				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "TP27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 36.83 156.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16c6761d-42ab-4940-a4fe-fd0c7e47f400")
-		(property "Reference" "TP28"
-			(at 38.1 154.9399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 38.1 157.4799 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
-			(at 41.91 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 36.83 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "5000"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier_PN" "534-5000"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "82c0ef96-7609-4063-9d5c-ad411e8d11b6")
-		)
-		(instances
-			(project "WirelessBERA"
-				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "TP28")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -5750,7 +6535,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "19950a4d-840b-4b14-ab2c-59e767942f87")
-		(property "Reference" "R43"
+		(property "Reference" "R45"
 			(at 157.48 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5847,7 +6632,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "R43")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -5932,119 +6717,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 36.83 161.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "216690e2-df57-4d5e-a706-a4f09cacc4fd")
-		(property "Reference" "TP31"
-			(at 38.1 160.0199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 38.1 162.5599 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
-			(at 41.91 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 36.83 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "5000"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier_PN" "534-5000"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e94ced39-6eeb-46df-93b8-c3aeea59ba6e")
-		)
-		(instances
-			(project "WirelessBERA"
-				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "TP31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 135.89 165.1 90)
 		(unit 1)
@@ -6055,7 +6727,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "23a3dbfc-fc0e-4f4f-bd08-146749fac732")
-		(property "Reference" "C61"
+		(property "Reference" "C62"
 			(at 132.334 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6150,15 +6822,15 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "C61")
+					(reference "C62")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 78.74 128.27 0)
+		(lib_id "power:GNDA")
+		(at 260.35 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6166,20 +6838,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "251d6fbe-60e2-4d6e-8a38-da724a39ea5d")
-		(property "Reference" "TP25"
-			(at 76.962 126.746 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 80.01 129.5399 0)
+		(fields_autoplaced yes)
+		(uuid "24fd4343-f9b5-4de0-9777-7141ccef80e9")
+		(property "Reference" "#PWR0115"
+			(at 260.35 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6187,11 +6849,20 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
-			(at 83.82 128.27 0)
+		(property "Value" "GNDA"
+			(at 260.35 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6202,7 +6873,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 128.27 0)
+			(at 260.35 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6212,41 +6883,8 @@
 				)
 			)
 		)
-		(property "Description" "test point"
-			(at 78.74 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "5000"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier_PN" "534-5000"
-			(at 0 0 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 260.35 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6257,124 +6895,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "233d4558-d602-4ace-9bbd-3de9b337f55a")
+			(uuid "0bc8c203-54f7-4a33-8990-ed7853a4f8dc")
 		)
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "TP25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 213.36 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "26961d54-eab3-4a9f-8ada-33d11a9f772f")
-		(property "Reference" "TP21"
-			(at 211.074 56.896 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 214.63 59.6899 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
-			(at 218.44 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 213.36 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "5000"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier_PN" "534-5000"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fd2a313f-a16a-40f1-b99c-78ec40927d3a")
-		)
-		(instances
-			(project "WirelessBERA"
-				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "TP21")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -6391,7 +6917,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26a4f507-ed29-4e6d-a304-1914600997ff")
-		(property "Reference" "R41"
+		(property "Reference" "R42"
 			(at 118.364 62.738 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6486,7 +7012,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "R41")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -6504,7 +7030,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2baa4b65-0863-4efe-b513-3c8b3a1cbb4a")
-		(property "Reference" "J5"
+		(property "Reference" "J11"
 			(at 152.4 132.842 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6605,7 +7131,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "J5")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -6623,7 +7149,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2dd5dec8-fa6e-421f-8f21-ebca9edc371c")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR0126"
 			(at 95.25 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -6683,7 +7209,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "#PWR0122")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -6700,7 +7226,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e67cd36-cc04-4cb0-9cb2-0245208e3db2")
-		(property "Reference" "R48"
+		(property "Reference" "R50"
 			(at 79.248 191.516 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6795,84 +7321,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "R48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 172.72 62.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2ff276d1-b7c3-495e-8bce-262297009d3e")
-		(property "Reference" "#PWR0106"
-			(at 172.72 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 172.72 66.294 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 172.72 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f5189345-870b-4ecd-8dc9-8f714da50680")
-		)
-		(instances
-			(project "WirelessBERA"
-				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "#PWR0106")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -6966,7 +7415,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "318031f9-d461-44f5-be49-5f8616d6cdf9")
-		(property "Reference" "TP38"
+		(property "Reference" "TP21"
 			(at 75.184 192.024 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7028,7 +7477,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "TP38")
+					(reference "TP21")
 					(unit 1)
 				)
 			)
@@ -7149,118 +7598,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 165.1 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3bc7f43b-53d2-4b0d-9d08-32a54d186252")
-		(property "Reference" "TP23"
-			(at 162.814 72.136 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 166.37 74.9299 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
-			(at 170.18 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 165.1 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "5000"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier_PN" "534-5000"
-			(at 164.846 74.168 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "703ce54d-a931-4a92-a235-101c102d3841")
-		)
-		(instances
-			(project "WirelessBERA"
-				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "TP23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDA")
 		(at 102.87 135.89 0)
 		(unit 1)
@@ -7271,7 +7608,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "40f8927b-bb8b-4740-8e24-04fb165a46fb")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR0121"
 			(at 102.87 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -7331,7 +7668,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "#PWR0117")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -7349,7 +7686,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41395028-fea0-4deb-af5c-cd9b257b5a58")
-		(property "Reference" "C60"
+		(property "Reference" "C61"
 			(at 174.752 160.274 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7446,7 +7783,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "C60")
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -7575,7 +7912,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "42b395ca-b7ca-4b62-afde-417ecade855a")
-		(property "Reference" "C57"
+		(property "Reference" "C58"
 			(at 128.524 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7670,7 +8007,119 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "C57")
+					(reference "C58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 172.72 66.04 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "439780d1-4ffb-4343-90dd-e3d633b3460c")
+		(property "Reference" "R43"
+			(at 175.006 68.072 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 175.006 64.008 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 174.498 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 172.72 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW060310K0FKEA"
+			(at 172.72 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "Lager"
+			(at 172.72 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier_PN" "T03"
+			(at 172.72 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "748f6363-cfe1-49d4-85d0-86b83f5b668b")
+		)
+		(pin "1"
+			(uuid "b7e6ff6a-9ed7-464d-9bb9-916580d23c24")
+		)
+		(instances
+			(project "WirelessBERA"
+				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -7687,7 +8136,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4515e0a4-9339-46de-a5e7-d2a0e179ce1d")
-		(property "Reference" "R44"
+		(property "Reference" "R46"
 			(at 97.536 123.698 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7782,7 +8231,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "R44")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -7922,7 +8371,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "462d76f8-4990-49f7-a84b-c8889b2f8dbc")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR0125"
 			(at 111.76 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -7982,7 +8431,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "#PWR0121")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -7999,7 +8448,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "46a0338e-caa6-4689-a676-a20f2d4b450e")
-		(property "Reference" "C56"
+		(property "Reference" "C57"
 			(at 52.578 128.524 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8096,7 +8545,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "C56")
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -8229,6 +8678,241 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_PinHeader_Generic_2.54mm:PinHeader_01x04_2.54mm_Vertical")
+		(at 262.89 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4a228eb8-c35b-4c31-ab8b-9192c85a8c1d")
+		(property "Reference" "J7"
+			(at 262.128 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PinHeader_01x04_2.54mm_Vertical"
+			(at 265.43 63.4999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 262.89 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300411121.pdf"
+			(at 262.89 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Through hole straight pin header, 1x04, 2.54mm pitch, single row"
+			(at 262.89 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "61300411121"
+			(at 262.89 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "Wurth Elektronik"
+			(at 262.89 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AIS-LIB" "TRUE"
+			(at 262.89 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0d46a2a4-098d-4de3-b816-2bf514ec4386")
+		)
+		(pin "2"
+			(uuid "a8e3b2a5-7bd8-4d14-b7dc-d40c05342459")
+		)
+		(pin "4"
+			(uuid "97360831-e668-494a-ae95-f5fe203554bc")
+		)
+		(pin "3"
+			(uuid "cf332c15-8ede-47f7-847b-c0558ffeaef2")
+		)
+		(instances
+			(project "WirelessBERA"
+				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_PinHeader_Generic_2.54mm:PinHeader_01x02_2.54mm_Vertical")
+		(at 30.48 190.5 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4a9d129b-f3c9-442b-8c0d-072fbfdc15b0")
+		(property "Reference" "J13"
+			(at 30.48 185.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PinHeader_01x02_2.54mm_Vertical"
+			(at 30.48 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 30.48 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300211121.pdf"
+			(at 30.48 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Through hole straight pin header, 1x02, 2.54mm pitch, single row"
+			(at 30.48 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "61300211121"
+			(at 30.48 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "Wurth Elektronik"
+			(at 30.48 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AIS-LIB" "TRUE"
+			(at 30.48 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "653ce180-e7ce-47cf-a055-bff0df5f33e6")
+		)
+		(pin "2"
+			(uuid "eadcffc9-8214-4f84-898a-b7754f605337")
+		)
+		(instances
+			(project "WirelessBERA"
+				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+VSW")
 		(at 172.72 87.63 180)
 		(unit 1)
@@ -8239,7 +8923,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f63f9f7-2f15-40ae-a438-dc85a757085b")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR0116"
 			(at 172.72 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -8299,7 +8983,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "#PWR0112")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -8393,7 +9077,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "56f4d497-c712-481b-844a-b9fc68781afe")
-		(property "Reference" "J4"
+		(property "Reference" "J6"
 			(at 30.988 53.086 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8493,120 +9177,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 36.83 163.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d700bc9-f7dd-470e-a90b-adcc6be9ae94")
-		(property "Reference" "TP32"
-			(at 38.1 162.5599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 38.1 165.0999 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
-			(at 41.91 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 36.83 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "5000"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier_PN" "534-5000"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8966fd5b-9067-4dd6-a37c-d32377af774c")
-		)
-		(instances
-			(project "WirelessBERA"
-				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "TP32")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -8623,7 +9194,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6020160c-2b0f-4de3-8f9f-c12fe72c0e36")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0118"
 			(at 146.05 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -8683,7 +9254,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "#PWR0114")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -8701,7 +9272,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "661a0481-2574-4180-8fec-50f2f291435c")
-		(property "Reference" "R42"
+		(property "Reference" "R44"
 			(at 157.48 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8798,119 +9369,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "R42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 81.28 130.81 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "67e8292f-2efd-4010-8ac3-3f54271ddc29")
-		(property "Reference" "TP26"
-			(at 79.502 129.286 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 82.55 132.0799 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
-			(at 86.36 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 81.28 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "5000"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier_PN" "534-5000"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "02feb815-c2db-49e2-bdaa-8983293c9770")
-		)
-		(instances
-			(project "WirelessBERA"
-				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "TP26")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -8927,7 +9386,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "68ba8845-d0f2-4364-87fc-08dc9adb6de8")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0111"
 			(at 135.89 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -8987,7 +9446,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "#PWR0108")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -9004,7 +9463,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6a632d37-04ec-4990-a419-e9513dc06202")
-		(property "Reference" "C54"
+		(property "Reference" "C55"
 			(at 128.524 127 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9099,7 +9558,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "C54")
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -9194,7 +9653,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c3e6668-76e8-42de-85b4-4e06937552d2")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "#PWR0127"
 			(at 175.26 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -9254,119 +9713,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "#PWR0123")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 58.42 189.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6e70ad34-459b-45dc-b565-668fedc3dcf5")
-		(property "Reference" "TP40"
-			(at 58.928 188.214 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 59.69 190.4999 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
-			(at 63.5 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 58.42 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "5000"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier_PN" "534-5000"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "74b6e3ee-7aed-4dde-8037-163d4845e609")
-		)
-		(instances
-			(project "WirelessBERA"
-				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "TP40")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -9461,7 +9808,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7cba6a77-b6d6-4245-811f-ca52998e26f0")
-		(property "Reference" "C58"
+		(property "Reference" "C59"
 			(at 39.116 143.764 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9558,119 +9905,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "C58")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 213.36 66.04 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "805d859f-ac52-4819-95a1-d58925fdf035")
-		(property "Reference" "TP22"
-			(at 211.074 64.516 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 214.63 67.3099 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
-			(at 218.44 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 213.36 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "5000"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier_PN" "534-5000"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "68aa1f2b-a7f3-4b80-a525-2b8f9fe1b903")
-		)
-		(instances
-			(project "WirelessBERA"
-				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "TP22")
+					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -9766,7 +10001,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8295bf4f-69ad-4956-a296-c20f99bd9f33")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR0123"
 			(at 175.26 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -9826,7 +10061,314 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "#PWR0119")
+					(reference "#PWR0123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 170.18 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "85c639c7-7d6c-49ce-97c3-8cfc96d53a1d")
+		(property "Reference" "#PWR0110"
+			(at 170.18 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 173.99 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 170.18 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d85db0f-6c26-4da8-a4cf-7d12154e6d9e")
+		)
+		(instances
+			(project "WirelessBERA"
+				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_PinHeader_Generic_2.54mm:PinHeader_01x03_2.54mm_Vertical")
+		(at 242.57 96.52 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "87007fa0-d0f2-4c3b-8d4e-53af8d212d60")
+		(property "Reference" "J9"
+			(at 242.062 102.108 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PinHeader_01x03_2.54mm_Vertical"
+			(at 242.57 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 242.57 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300311121.pdf"
+			(at 242.57 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Through hole straight pin header, 1x03, 2.54mm pitch, single row"
+			(at 242.57 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "61300311121"
+			(at 242.57 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "Wurth Elektronik"
+			(at 242.57 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AIS-LIB" "TRUE"
+			(at 242.57 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4eedde58-ff86-47f4-a09a-923326b0b56d")
+		)
+		(pin "2"
+			(uuid "972dcba1-096e-4df3-9ad3-64adba0fccbb")
+		)
+		(pin "3"
+			(uuid "d641d7a3-20b5-407e-a578-5e13905efcd3")
+		)
+		(instances
+			(project "WirelessBERA"
+				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 166.37 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8d58196e-aef7-4fd4-83b6-2f3085fbdb25")
+		(property "Reference" "C50"
+			(at 166.878 63.754 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 166.878 68.326 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 167.3352 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 166.37 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C0603C105K8PACTU"
+			(at 166.37 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "Lager"
+			(at 166.37 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier_PN" "T26"
+			(at 166.37 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4bc9189c-3257-489e-a0b4-7d56c8902adb")
+		)
+		(pin "1"
+			(uuid "f67b9fe1-751c-4e29-a267-05ceb9238c5c")
+		)
+		(instances
+			(project "WirelessBERA"
+				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -9843,7 +10385,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "93f82095-a019-41b6-8acd-20545cd3fb49")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR0129"
 			(at 87.63 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -9903,7 +10445,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "#PWR0125")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -9921,7 +10463,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "976b900c-8bf8-4d1b-a2c8-2c466cac63a6")
-		(property "Reference" "C53"
+		(property "Reference" "C54"
 			(at 189.23 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10018,7 +10560,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "C53")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -10035,7 +10577,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "993d86d9-096f-454a-9a40-9ff03948a695")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0106"
 			(at 143.51 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -10095,7 +10637,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "#PWR0105")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -10112,7 +10654,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9a2bd8d7-31d9-488e-a510-cb19df7d6f83")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR0124"
 			(at 39.37 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -10172,7 +10714,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "#PWR0120")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -10189,7 +10731,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9abbcd25-660f-4b17-80e6-6dd4e61cd1dc")
-		(property "Reference" "TP37"
+		(property "Reference" "TP20"
 			(at 72.39 192.024 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10251,7 +10793,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "TP37")
+					(reference "TP20")
 					(unit 1)
 				)
 			)
@@ -10268,7 +10810,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a20e2a18-864b-470f-99ba-6f8e443f7eee")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR0119"
 			(at 64.77 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -10328,7 +10870,84 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "#PWR0115")
+					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+VSW")
+		(at 257.81 60.96 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a9ed2697-04d2-442d-8859-571e03e9e459")
+		(property "Reference" "#PWR0107"
+			(at 261.62 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-5V_InAmp"
+			(at 246.634 59.944 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+VSW\""
+			(at 257.81 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bb6f7473-40c0-42ab-b233-978c6eb5f710")
+		)
+		(instances
+			(project "WirelessBERA"
+				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -10345,7 +10964,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "abed0023-ee81-4a6b-ac41-8ca7190625ae")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0120"
 			(at 52.07 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -10405,7 +11024,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "#PWR0116")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -10422,7 +11041,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad6091ed-8e6e-4a0e-8f35-7c2ee58eb800")
-		(property "Reference" "C59"
+		(property "Reference" "C60"
 			(at 132.334 161.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10517,7 +11136,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "C59")
+					(reference "C60")
 					(unit 1)
 				)
 			)
@@ -10723,7 +11342,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "affd7699-155a-44c2-a4f2-ef26d2210142")
-		(property "Reference" "TP34"
+		(property "Reference" "TP18"
 			(at 95.758 166.116 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10785,7 +11404,128 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "TP34")
+					(reference "TP18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_PinHeader_Generic_2.54mm:PinHeader_01x04_2.54mm_Vertical")
+		(at 30.48 176.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b12cbaca-1955-47bb-a1f9-aed5c71d4703")
+		(property "Reference" "J12"
+			(at 29.21 171.196 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PinHeader_01x04_2.54mm_Vertical"
+			(at 33.02 179.0699 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 30.48 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300411121.pdf"
+			(at 30.48 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Through hole straight pin header, 1x04, 2.54mm pitch, single row"
+			(at 30.48 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "61300411121"
+			(at 30.48 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "Wurth Elektronik"
+			(at 30.48 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AIS-LIB" "TRUE"
+			(at 30.48 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3fe0f8d4-41cf-4a3d-83cb-eff1ce882a88")
+		)
+		(pin "2"
+			(uuid "a35cf321-46f9-47e2-bfe8-dcebd00a812a")
+		)
+		(pin "4"
+			(uuid "2587e9ad-2b07-4966-a05d-3d4cbfcfe0de")
+		)
+		(pin "3"
+			(uuid "3820195f-6237-41af-9b20-7a65c3cd1e5a")
+		)
+		(instances
+			(project "WirelessBERA"
+				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -10926,7 +11666,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b510717c-e457-4f72-990f-a93559172e94")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0109"
 			(at 88.9 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -10986,7 +11726,84 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "#PWR0107")
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+VSW")
+		(at 257.81 66.04 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b5986acd-4a9a-4dad-bb7a-9e632d8ddb88")
+		(property "Reference" "#PWR0108"
+			(at 261.62 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V_InAmp"
+			(at 246.634 65.278 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+VSW\""
+			(at 257.81 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "360a4f4c-0fa7-4d66-a066-56b39659f631")
+		)
+		(instances
+			(project "WirelessBERA"
+				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -11003,7 +11820,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "baccab3e-7df8-42ef-ac51-92d355036df7")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR0128"
 			(at 44.45 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -11063,7 +11880,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "#PWR0124")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -11080,7 +11897,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bcaf3d1b-6370-448c-8b39-be27e8cc2b63")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR0112"
 			(at 165.1 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -11140,7 +11957,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "#PWR0109")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -11157,7 +11974,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c4b6814a-caa9-47a8-9801-808cea35e366")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR0122"
 			(at 38.1 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -11217,7 +12034,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "#PWR0118")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -11234,7 +12051,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c57dd570-7906-43be-acc8-5cf7846f6727")
-		(property "Reference" "C55"
+		(property "Reference" "C56"
 			(at 46.736 128.524 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11331,7 +12148,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "C55")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -11348,7 +12165,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c63f684d-8012-40f2-8c05-dbee487a1d89")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR0113"
 			(at 154.94 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -11408,7 +12225,84 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "#PWR0110")
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+VSW")
+		(at 172.72 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c79c1d04-8a13-47db-80a5-9d6b78a992ea")
+		(property "Reference" "#PWR0105"
+			(at 172.72 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V_TAC_A"
+			(at 172.466 51.308 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+VSW\""
+			(at 172.72 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8f782985-a4ae-4d9f-89cd-d02529a62f28")
+		)
+		(instances
+			(project "WirelessBERA"
+				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -11539,7 +12433,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "caaa28fb-e468-4386-bf84-02d29287bb38")
-		(property "Reference" "R46"
+		(property "Reference" "R48"
 			(at 139.192 128.778 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11634,7 +12528,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "R46")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -11718,6 +12612,118 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 172.72 58.42 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d0d939f8-511a-4adb-a419-a2010f57f3e1")
+		(property "Reference" "R40"
+			(at 175.006 60.452 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5k"
+			(at 175.006 56.388 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 174.498 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 172.72 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW0603?????"
+			(at 172.72 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "?"
+			(at 172.72 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier_PN" "?"
+			(at 172.72 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a719bb10-dc40-436e-960c-a099506a825d")
+		)
+		(pin "1"
+			(uuid "3ee8b6e6-e478-424d-b381-91e1d3676447")
+		)
+		(instances
+			(project "WirelessBERA"
+				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 121.92 68.58 90)
 		(unit 1)
@@ -11728,7 +12734,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d347b6ad-87b1-4504-a0a2-1fbb78c7f966")
-		(property "Reference" "C50"
+		(property "Reference" "C51"
 			(at 118.364 67.056 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11823,7 +12829,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "C50")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -12057,6 +13063,128 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_PinHeader_Generic_2.54mm:PinHeader_01x04_2.54mm_Vertical")
+		(at 242.57 80.01 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d617f35a-8929-4ca7-8d31-9b3e41700d4f")
+		(property "Reference" "J8"
+			(at 243.586 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PinHeader_01x04_2.54mm_Vertical"
+			(at 240.03 82.5499 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 242.57 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300411121.pdf"
+			(at 242.57 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Through hole straight pin header, 1x04, 2.54mm pitch, single row"
+			(at 242.57 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "61300411121"
+			(at 242.57 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "Wurth Elektronik"
+			(at 242.57 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AIS-LIB" "TRUE"
+			(at 242.57 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e3902556-fef6-40ec-9114-910c20415e5d")
+		)
+		(pin "2"
+			(uuid "4ab48fec-9381-43ee-98fd-0bb6c2999781")
+		)
+		(pin "4"
+			(uuid "6e807d48-79dc-4169-b124-af978cc1e044")
+		)
+		(pin "3"
+			(uuid "90228479-3d8e-45d5-a292-4cc092ffb3b5")
+		)
+		(instances
+			(project "WirelessBERA"
+				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 99.06 133.35 90)
 		(unit 1)
@@ -12067,7 +13195,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d749354f-94ba-4e47-b7af-eb09d39b0f67")
-		(property "Reference" "R47"
+		(property "Reference" "R49"
 			(at 95.758 135.636 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12162,7 +13290,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "R47")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -12179,7 +13307,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d956c6b4-bf77-47a2-9b95-598da44c31a8")
-		(property "Reference" "TP39"
+		(property "Reference" "TP22"
 			(at 78.486 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12241,7 +13369,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "TP39")
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -12362,230 +13490,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 76.2 125.73 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dde0d2ac-f368-4fe0-a99e-c3ee72b30f7b")
-		(property "Reference" "TP24"
-			(at 74.422 124.206 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 77.47 126.9999 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
-			(at 81.28 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 76.2 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "5000"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier_PN" "534-5000"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "85f6732d-e57e-4f23-90b3-adb26376085b")
-		)
-		(instances
-			(project "WirelessBERA"
-				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "TP24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 58.42 186.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "debd3cb2-3a3e-4cfd-9bd7-cb29162fb9ef")
-		(property "Reference" "TP35"
-			(at 57.15 185.166 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 59.69 187.9599 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
-			(at 63.5 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 58.42 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "5000"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier_PN" "534-5000"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6673553c-c73d-4ca6-8e24-d33ddef1ff5b")
-		)
-		(instances
-			(project "WirelessBERA"
-				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "TP35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDA")
 		(at 78.74 54.61 180)
 		(unit 1)
@@ -12673,7 +13577,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "e2c3b0be-199f-4cd8-99ba-7092d48460ec")
-		(property "Reference" "C51"
+		(property "Reference" "C52"
 			(at 144.018 71.628 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12768,7 +13672,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "C51")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -12786,7 +13690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e76fa160-b03a-429b-935b-6c8b6b4116d5")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR0114"
 			(at 195.58 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -12846,7 +13750,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "#PWR0111")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -12863,7 +13767,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8aa09a9-042f-4c8b-9bd8-2f21f2b02e34")
-		(property "Reference" "TP30"
+		(property "Reference" "TP16"
 			(at 144.526 158.242 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12925,7 +13829,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "TP30")
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -13228,118 +14132,6 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 165.1 49.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f9ad3060-272f-4970-bdd5-167b04c1af3b")
-		(property "Reference" "TP20"
-			(at 162.814 48.006 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 166.37 50.7999 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
-			(at 170.18 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 165.1 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "5000"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier_PN" "534-5000"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "77df3649-9f74-41f5-86e8-aad23cf547d3")
-		)
-		(instances
-			(project "WirelessBERA"
-				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "TP20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
 		(at 69.85 186.69 0)
 		(unit 1)
 		(body_style 1)
@@ -13349,7 +14141,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fab186b8-7d78-4980-9ab3-c0be869ad976")
-		(property "Reference" "TP36"
+		(property "Reference" "TP19"
 			(at 69.85 192.024 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13411,7 +14203,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "TP36")
+					(reference "TP19")
 					(unit 1)
 				)
 			)
@@ -13427,10 +14219,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fcbdfbf1-08a6-4aec-a58e-68968fb64097")
 		(property "Reference" "R39"
-			(at 157.48 52.0699 0)
+			(at 156.21 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13441,7 +14232,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 157.48 54.6099 0)
+			(at 156.464 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13543,7 +14334,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd7f67ac-3d2c-4c94-a5c9-feb10b5790bd")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR0117"
 			(at 185.42 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -13603,120 +14394,7 @@
 		(instances
 			(project "WirelessBERA"
 				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "#PWR0113")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 36.83 158.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff5490e1-77f6-46cb-babb-de2c9fccf2ab")
-		(property "Reference" "TP29"
-			(at 38.1 157.4799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 38.1 160.0199 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
-			(at 41.91 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 36.83 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "5000"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier_PN" "534-5000"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1bd54ab4-ef42-405e-9c9a-9e917e60b79a")
-		)
-		(instances
-			(project "WirelessBERA"
-				(path "/9923f3cb-fea3-442a-b105-4e616c3606bf/12b20bff-ca54-42ac-a368-641c19ed9a4f"
-					(reference "TP29")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
