@@ -7,7 +7,7 @@
 "C28","1","2.2u","Capacitor_SMD:C_0603_1608Metric","C0603C225K8PACTU","","","","","",""
 "C34","1","4.7p","Capacitor_SMD:C_0603_1608Metric","C0603C479C4HACTU","","","","","",""
 "C40,C55,C58,C60,C62","5","22u","Capacitor_SMD:C_0805_2012Metric","GRM21BR60J226ME39L","","","","","",""
-"C48,C53","2","10u","Capacitor_SMD:C_0603_1608Metric","GRM188R61C106KE15D","","","","","",""
+"C48,C53","2","10u","Capacitor_SMD:C_0603_1608Metric","GRM188R61C106MA73J","","","","","",""
 "C49,C52","2","TBD","Capacitor_SMD:C_0603_1608Metric","","","","","","DNP",""
 "C51","1","1n","Capacitor_SMD:C_0603_1608Metric","C1608C0G1H102J080AE","","","","","",""
 "C54","1","180p","Capacitor_SMD:C_0603_1608Metric","C0603C181J5GACTU","","","","","",""

@@ -6100,7 +6100,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R61C106KE15D"
+		(property "MPN" "GRM188R61C106MA73J"
 			(at 168.91 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -6111,7 +6111,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Lager"
+		(property "Supplier" "Mouser"
 			(at 168.91 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -6122,7 +6122,7 @@
 				)
 			)
 		)
-		(property "Supplier_PN" "T26"
+		(property "Supplier_PN" "GRM188R61C106MA73J"
 			(at 168.91 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -6475,7 +6475,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R61C106KE15D"
+		(property "MPN" "GRM188R61C106MA73J"
 			(at 168.91 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -6486,7 +6486,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Lager"
+		(property "Supplier" "Mouser"
 			(at 168.91 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -6497,7 +6497,7 @@
 				)
 			)
 		)
-		(property "Supplier_PN" "T26"
+		(property "Supplier_PN" "GRM188R61C106MA73J"
 			(at 168.91 40.64 0)
 			(hide yes)
 			(show_name no)

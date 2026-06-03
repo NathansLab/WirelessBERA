@@ -5624,7 +5624,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R61C106KE15D"
+		(property "MPN" "GRM188R61C106MA73J"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5637,7 +5637,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Lager"
+		(property "Supplier" "Mouser"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5650,7 +5650,7 @@
 				)
 			)
 		)
-		(property "Supplier_PN" "T26"
+		(property "Supplier_PN" "GRM188R61C106MA73J"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24451,7 +24451,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R61C106KE15D"
+		(property "MPN" "GRM188R61C106MA73J"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24464,7 +24464,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Lager"
+		(property "Supplier" "Mouser"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24477,7 +24477,7 @@
 				)
 			)
 		)
-		(property "Supplier_PN" "T26"
+		(property "Supplier_PN" "GRM188R61C106MA73J"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
