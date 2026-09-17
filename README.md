@@ -40,7 +40,7 @@ Optional plug-in for standalone LTC6373 evaluation at fixed Gain = 16. Stacking 
 
 ---
 
->  **v1.0 — Pre-production prototype. Not yet fabricated.**
+>  **v1.0 — prototype fabricated at Aisler and assembled; bring-up in progress.**
 
 ## 3D Renderings
 
@@ -95,6 +95,44 @@ To pull future improvements from the upstream [kicad-happy repository](https://g
 > [!IMPORTANT]
 > **AI Agent Reminder / Instruction:**
 > When resuming or initiating a design audit, check if there are new updates in the upstream `kicad-happy` repository. Fetch them, merge them into our local directory, and verify that the custom footprint verification code inside `skills/datasheets/scripts/datasheet_verify.py` and output logic inside `skills/kicad/scripts/analyze_schematic.py` are preserved and function correctly.
+
+---
+
+## ESP32-S3 Firmware
+
+The firmware lives in [`firmware/wireless_bera/`](firmware/wireless_bera/) — see
+its [README](firmware/wireless_bera/README.md) for the full picture. It brings
+the analog front end up, streams both ADC channels to a browser over a
+WebSocket, drives the DAC stimulus output, and runs as its own access point and
+as a client on an existing network at the same time.
+
+```bash
+source ~/esp/esp-idf/export.sh
+cd firmware/wireless_bera
+idf.py set-target esp32s3
+idf.py build
+```
+
+Flash at **115200** baud — the ESP32-S3's native USB-CDC needs the slower rate
+for the auto-reset handshake to line up with the macOS driver, and then no
+button presses are required:
+
+```bash
+python3 -m esptool --chip esp32s3 -p /dev/cu.usbmodem101 -b 115200 \
+  --before default_reset --after hard_reset write_flash \
+  --flash_mode dio --flash_freq 80m --flash_size 16MB \
+  0x0     build/bootloader/bootloader.bin \
+  0x8000  build/partition_table/partition-table.bin \
+  0x10000 build/wireless_bera.bin
+```
+
+*(To force bootloader mode by hand: hold BOOT (SW3), tap RESET (SW2), release BOOT.)*
+
+On power-up the board raises the access point `WirelessBERA-XXXX`
+(password `bera1234`) and serves the UI at <http://192.168.4.1>. The
+USB-Serial/JTAG port carries both the log and a command line — type `help`, or
+`wifi "My Network" mypassword` to join an existing 2.4 GHz network. Credentials
+are stored in NVS only and never end up in the repository.
 
 ---
 
