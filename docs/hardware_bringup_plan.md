@@ -1,61 +1,113 @@
-# Wireless BERA Hardware Bring-Up Plan
+# Hardware bring-up
 
-This document outlines the systematic, step-by-step procedure to power on, configure, and verify all sub-circuits on the Wireless BERA board. 
+Status of the assembled Wireless BERA v1.0 prototype, and what is left to check.
+Last updated 2026-09-17.
 
-Currently, the board is assembled with all components **except the Ferrite Beads `FB1` through `FB6`**, meaning only the ESP32-S3 module is powered (`FB7` is soldered). We will proceed in three isolated phases.
+The board is fully populated — all ferrite beads `FB1`–`FB7` are fitted, so every
+supply rail is live — with two deliberate exceptions listed under
+[Not populated](#not-populated).
 
 ---
 
-```mermaid
-graph TD
-    Phase0[Current State: Only ESP32-S3 Powered via FB7] --> Phase1[Phase 1: Solder FB1 & FB2 <br>Power & Test U11 ADC via I2C/I2S]
-    Phase1 --> Phase2[Phase 2: Solder FB3 & FB4 <br>Power & Test U10 LTC6373 Gain Control]
-    Phase2 --> Phase3[Phase 3: Solder FB5 & FB6 <br>Power & Test U9 DRL Active CMR Circuit]
+## What is verified
+
+Measured on the assembled board over the firmware's HTTP API and serial console
+(`firmware/wireless_bera/`), not inferred from the schematic.
+
+### Power
+
+| | |
+|---|---|
+| `+3.5V_ESP` | ESP32-S3 boots and runs; TPS63000 feedback divider R20/R21 sets 3.5 V |
+| `+3.3V_TAC_A` | codec's own AVDD monitor reads **3.31 V** (page 1 diagnostic SAR) |
+| `+5.5V` / `−5.5V` | TPS65132W register readback: **+5.4 V / −5.4 V** (factory default) |
+| `V_BAT` sense | GPIO1 / ADC1_CH0, 10 k/10 k divider, reads plausibly |
+
+The BQ24074's `~PGOOD` and `~CHG` outputs are **not** routed to the MCU, so the
+firmware cannot report charger state. `~CHG` only drives the D1 LED.
+
+### Digital
+
+| | |
+|---|---|
+| I²C bus | `0x3E` TPS65132W, `0x50` TAC5212 — both ACK |
+| I²S | ESP32-S3 as clock master, 32-bit slots, BCLK = 64 × fs |
+| Codec PLL | locks off BCLK at **8, 16, 24, 32, 48 and 96 kHz**, no clock errors |
+| Detected ratio | codec reports BCLK:FSYNC = 64 and the correct sample-rate code |
+| SD card | **not yet tested** |
+| USB | native USB-Serial/JTAG carries console and log; flashing works at 115200 |
+
+### Analog signal chain
+
+ADC channel 2 (the biopotential path) was confirmed end to end by spectrum
+analysis of the live stream, with the electrode jack left open:
+
+```
+50.05 Hz   0.113 % FS      <- mains
+150.15 Hz  0.024 % FS      <- 3rd harmonic
+250.00 Hz  0.007 % FS      <- 5th harmonic
 ```
 
----
+That is mains pickup on the open, 1 MΩ-biased differential input, amplified by
+the LTC6373 and digitised cleanly — about **141 µV referred to the input**. It
+proves electrode jack → LTC6373 → TAC5212 IN2 → I²S → Wi-Fi → browser.
 
-## Phase 1: Solder FB1 & FB2 — Power & Verify TAC5212 ADC (U11)
-
-The **TAC5212** is a 24-bit high-performance stereo ADC (`U11`) which handles biopotential recording and environmental audio. It requires independent digital (`+3.3V_TAC_D` via `FB1`) and analog (`+3.3V_TAC_A` via `FB2`) rails.
-
-### Step-by-Step Instructions:
-1. **Solder `FB1`**: This bridges `+3.3V_D` to `+3.3V_TAC_D`.
-2. **Power Check (Digital)**: Connect the USB/battery. Verify that test point **`TP1`** measures exactly **`3.3 V`**.
-3. **Solder `FB2`**: This bridges `+3.3V_A` to `+3.3V_TAC_A`.
-4. **Power Check (Analog)**: Connect the USB/battery. Verify that test point **`TP3`** measures exactly **`3.3 V`**.
-5. **Firmware Test (I2C Bus Scan)**:
-   We will flash a firmware test script to scan the I2C bus (SDA = **GPIO 4**, SCL = **GPIO 5**). The TAC5212 should respond at its configured I2C address (typically `0x4C` or `0x4D`).
-6. **Firmware Test (I2S Stream)**:
-   We will initialize the ESP32-S3's I2S peripheral (BCLK = **GPIO 16**, FSYNC = **GPIO 15**, DOUT = **GPIO 7**) and verify that we can receive digital samples from the ADC.
+ADC channel 1 shows a flat broadband floor at 0.002 % FS with no dominant line,
+which is the codec's own input noise with the microphone unpopulated.
 
 ---
 
-## Phase 2: Solder FB3 & FB4 — Power & Verify LTC6373 Instrumentation Amp (U10)
+## Not populated
 
-The **LTC6373** is a programmable-gain instrumentation amplifier (`U10`) designed to amplify microvolt-level EEG/BERA signals. It operates on low-noise analog rails: `+5V_InAmp` via `FB3` and `-5V_InAmp` via `FB4`.
+| Part | Consequence |
+|---|---|
+| `MK1` (IM73A135 MEMS microphone) | ADC channel 1 only shows the codec's input noise floor |
+| `R35`, `R36`, `R37` (10 k, GPIO → LTC6373 A0/A1/A2) | the gain select lines never reach `U10`; its internal pull-downs hold A2/A1/A0 low, so it runs permanently at **G = 16** |
 
-### Step-by-Step Instructions:
-1. **Solder `FB3` and `FB4`**: This connects `U10` to the positive and negative 5V analog supplies.
-2. **Power Check**: Verify that `U10` Pin 4/5 measures **`+5.0 V`** relative to GNDA, and `U10` Pin 13 measures **`-5.0 V`**.
-3. **Firmware Test (Gain Select GPIOs)**:
-   The gain of `U10` is controlled by three digital select lines:
-   * `GAIN_A0` = **GPIO 8**
-   * `GAIN_A1` = **GPIO 18**
-   * `GAIN_A2` = **GPIO 17**
-   
-   We will run a test script that toggles these pins in sequence (from gain=0.25 to gain=16) and measure the voltage logic levels on the respective pins of `U10` using a multimeter/logic analyzer to confirm the control lines are active.
-4. **Signal Verification**:
-   Feed a small differential test signal (e.g., a 10 mV, 100 Hz sine wave) to the instrumentation amplifier inputs. Read the ADC values from U11 over I2S and verify that the signal amplitude scales correctly as you program different gains.
+The firmware drives the gain GPIOs correctly regardless; `BOARD_PGIA_RESISTORS_FITTED`
+in `firmware/wireless_bera/main/board.h` records the state and the web UI shows a
+warning. Flip it to `1` once the resistors are fitted.
 
 ---
 
-## Phase 3: Solder FB5 & FB6 — Power & Verify OPA376 DRL Driver (U9)
+## Open items
 
-The **OPA376** (`U9`) implements the Driven Right Leg (DRL) circuit, which actively drives a common-mode cancellation signal back to the body. It operates on `+5V_DRL` via `FB5` and `-5V_DRL` via `FB6`.
+### Verify next
 
-### Step-by-Step Instructions:
-1. **Solder `FB5` and `FB6`**: This connects `U9` to the active positive and negative 5V DRL supplies.
-2. **Power Check**: Verify that `U9` Pin 5 measures **`+5.0 V`** and `U9` Pin 2 measures **`-5.0 V`**.
-3. **Hardware Test (Common Mode Output)**:
-   Measure the output of the DRL circuit. It should sit close to GNDA (0 V) when the inputs are grounded or balanced, indicating that the feedback loop is stable and in its linear range.
+1. **Gain scaling.** Fit `R35`–`R37`, then apply a known differential signal and
+   confirm the amplitude tracks 0.25× … 16×.
+2. **Noise floor.** Short `J8` pins 2 (IN+), 3 (IN−) and 4 (GNDA) together to give
+   the front end a defined zero, then measure the input-referred noise. With the
+   input open the driven-right-leg loop is not closed and the reading wanders.
+3. **DAC output.** Plug headphones or insert earphones into `J11` and listen to a
+   tone burst. The DAC channels report powered and the digital path is configured,
+   but the analog output has not been measured. The codec's page-1 output monitors
+   (`DIAG_MON_*_OUT1P` …) would allow an in-system check, but they need an enable
+   sequence documented only in TI's diagnostics application note.
+4. **DRL loop.** With electrodes attached, confirm the OPA376 output sits in its
+   linear range and that common-mode rejection improves.
+5. **microSD.** Mount and read/write. The pin map is already reserved in `board.h`.
+6. **Access point with a real client.** The AP beacons and the device reports it as
+   up, but no client association has been exercised.
+
+### Hardware notes for a future revision
+
+- **TAC5212 input protection.** The analog input pins are rated −0.3 V to
+  +5.656 V. Normal signals are safe: with `VOCM` = 2.20 V, a full-scale ±2 Vrms
+  differential keeps each leg between 0.8 V and 3.6 V. A *saturated* LTC6373 on
+  ±5 V is not — it can pull a leg toward −5 V, well past the −0.3 V limit, leaving
+  the codec's ESD diodes to absorb it. A series resistor plus a clamp to GNDA
+  would close that gap.
+- **I²C level mismatch.** The pull-ups R30/R31 go to `+3.5V_ESP` while the codec's
+  IOVDD is 3.3 V. Inside absolute maximum, but not ideal.
+- **`R38`, `R45`, `C49`, `C52` are still `TBD`** in the BOM — the input bias and
+  coupling network around the electrode inputs is not finalised.
+
+---
+
+## Register and pin reference
+
+See [`tac5212_registers.md`](tac5212_registers.md) for the codec register map and
+the corrected I²C address, and `firmware/wireless_bera/main/board.h` for the
+authoritative pin map — it is derived from the schematic netlist and is what the
+firmware actually uses.

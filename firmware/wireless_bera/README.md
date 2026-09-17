@@ -55,11 +55,20 @@ Credentials live only in the device's NVS partition. Nothing is ever written
 into the binary or into this repository.
 
 Once it has joined a network the board is also reachable at
-`http://wirelessbera.local`, and it brings up an **IPv6 link-local address**.
-That address matters on networks that isolate clients in separate IPv4 NAT
-pools — a phone hotspot, for example — because it gives a direct path on the
-same segment. Browsers refuse zone ids in URLs, so from a laptop use a one-hop
-TCP forwarder:
+`http://wirelessbera.local`, and it brings **IPv6** up.
+
+That matters on networks that put clients in separate IPv4 NAT pools — a phone
+hotspot, for example — where the IPv4 address is not reachable from another
+client at all. If the network advertises a prefix, the board picks up a global
+address by SLAAC and you can open it straight from a browser:
+
+```
+http://[2a01:599:918:e549:a6cb:8fff:feca:5a28]/
+```
+
+`/api/status` reports the current one as `net.sta_ip6`, and the serial console
+prints it under `IPv6`. If only a link-local address (`fe80::…`) is available,
+browsers will not accept the zone id in a URL, so put one hop in front:
 
 ```bash
 socat TCP-LISTEN:8080,fork,reuseaddr TCP6:[fe80::a6cb:8fff:feca:5a28%en0]:80

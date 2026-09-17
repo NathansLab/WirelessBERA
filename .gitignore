@@ -1,59 +1,62 @@
-# KiCad project files (generated/cache)
+# ---------------------------------------------------------------------------
+# KiCad
+# ---------------------------------------------------------------------------
 *-cache.lib
 *-rescue.dcm
 *-rescue.lib
 fp-info-cache
+*.kicad_sch-bak
+*.kicad_pcb-bak
 *.bak
 *.lck
 ~*.kicad_*
+.history/
+hardware/WirelessBERA-backups/
+hardware/.kicad-push
 
-# KiCad autosave
-*.kicad_sch-bak
-*.kicad_pcb-bak
-
-# OS files
-.DS_Store
-.DS_Store?
-._*
-Thumbs.db
-desktop.ini
-
-# Reports (auto-generated)
+# Generated reports
 *.rpt
 *-erc.rpt
 *-drc.rpt
 
-# Python
-__pycache__/
-*.pyc
-*.pyo
-.venv/
+# ---------------------------------------------------------------------------
+# Vendor datasheets - large, and always re-downloadable from the manufacturer.
+# Kept on disk under hardware/datasheets/ but deliberately out of the history.
+# ---------------------------------------------------------------------------
+hardware/datasheets/
 
-# KiCad .history (local undo history, not needed in repo)
-.history/
-.history */
+# ---------------------------------------------------------------------------
+# LTspice run output (the .asc sources and the stimulus data are tracked)
+# ---------------------------------------------------------------------------
+*.raw
+*.op.raw
+hardware/simulation/*.log
 
-# Temp files
-*.tmp
-*.temp
-/WirelessBERA-backups
-hardware/WirelessBERA-backups/
-
-# Exclude local parts storage
-docs/datasheets/parts_storage/
-
-# Hardware analysis tool & cache
-kicad-happy/
-scratch/
-
-
-/hardware/datasheets
-/simulation_temp
-hardware/.kicad-push
-
+# ---------------------------------------------------------------------------
 # ESP-IDF build output
+# ---------------------------------------------------------------------------
 firmware/*/build/
 firmware/*/sdkconfig
 firmware/*/sdkconfig.old
 firmware/*/managed_components/
 firmware/*/dependencies.lock
+
+# ---------------------------------------------------------------------------
+# kicad-happy - the hardware audit tool, cloned locally rather than vendored.
+# See README.md; the working copy carries local modifications.
+# ---------------------------------------------------------------------------
+kicad-happy/
+
+# ---------------------------------------------------------------------------
+# Python / OS
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+desktop.ini
+*.tmp
+*.temp

@@ -761,7 +761,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "/Users/nathanscheufele/Desktop/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -946,7 +946,7 @@
         "uuid": "9923f3cb-fea3-442a-b105-4e616c3606bf"
       }
     ],
-    "used_designators": "#PWR84,#PWR130,FID1-3",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
