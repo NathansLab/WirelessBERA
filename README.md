@@ -14,6 +14,8 @@ brainstem response (ABR/BERA) measurements.
 
 ![Wireless BERA stacked assembly](docs/images/render_stacked_assembly.png)
 
+![Wireless BERA hardware prototype](docs/images/IMG_0880.gif)
+
 ---
 
 ## Repository layout
