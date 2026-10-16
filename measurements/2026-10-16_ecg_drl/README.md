@@ -1,6 +1,6 @@
 # ECG with and without driven right leg — 2026-10-16
 
-Three 60 s recordings of a single-lead chest ECG on the author, to see what the
+Four 60 s recordings of a single-lead chest ECG on the author, to see what the
 driven-right-leg (DRL) loop does to mains interference.
 
 ## Setup
@@ -20,6 +20,7 @@ driven-right-leg (DRL) loop does to mains interference.
 | `1_no_drl.csv` | green clip removed from its electrode — DRL loop open |
 | `2_drl_hand.csv` | green clip held in the right hand instead of on the electrode |
 | `3_drl_chest.csv` | green clip on the right lower rib electrode |
+| `4_drl_chest_repeat.csv` | as 3, repeated a few minutes later (gel settled longer) |
 
 ## File format
 
@@ -41,15 +42,17 @@ From `../tools/analyze_ecg.py`, all values referred to the electrodes:
 | No DRL | 1556 µVrms | 573 µVrms | 67 bpm | 1.70 mV |
 | DRL via hand | 191 µVrms (−18 dB) | 43 µVrms (−22 dB) | 70 bpm | 1.69 mV |
 | DRL via chest electrode | 498 µVrms (−10 dB) | 292 µVrms (−6 dB) | 67 bpm | 1.63 mV |
+| DRL via chest, repeat | 383 µVrms (−12 dB) | 226 µVrms (−8 dB) | 66 bpm | 1.79 mV |
 
-- The QRS complex is clearly resolved in all three recordings; no clipping, no
+- The QRS complex is clearly resolved in all four recordings; no clipping, no
   lost packets.
 - The DRL loop works: closing it lowers mains pickup by 10–18 dB.
 - Holding the DRL lead in the hand gave the strongest mains reduction, but the
   forearm muscles add broadband EMG (the floor above 60 Hz rises roughly 3×).
   The chest electrode keeps the floor at the no-DRL level.
-- Why the chest electrode suppresses less than the hand is open — contact
-  impedance (the gel had little time to settle) is the first suspect.
+- Why the chest electrode suppresses less than the hand is open. Repeating
+  the chest measurement after the gel had settled longer improved it only a
+  little (−10 → −12 dB), so contact impedance alone does not explain the gap.
 
 ![ECG and spectra](ecg_drl_comparison.png)
 
