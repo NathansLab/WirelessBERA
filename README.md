@@ -14,6 +14,8 @@ brainstem response (ABR/BERA) measurements.
 
 ![Wireless BERA stacked assembly](docs/images/render_stacked_assembly.png)
 
+![Wireless BERA hardware prototype](docs/images/IMG_0880.gif)
+
 ---
 
 ## Repository layout
@@ -141,37 +143,5 @@ build was made from:
 - **Fabrication:** Aisler, 4-layer
 - **Firmware:** ESP-IDF v5.2
 - **Hardware audit:** [kicad-happy](https://github.com/aklofas/kicad-happy)
-
-kicad-happy is cloned into `kicad-happy/` rather than vendored, and is ignored by
-git. The working copy carries local modifications — custom footprint/package
-checks in `skills/datasheets/scripts/datasheet_verify.py` and output logic in
-`skills/kicad/scripts/analyze_schematic.py`. Commit those inside the clone before
-merging upstream:
-
-```bash
-cd kicad-happy
-git remote add upstream https://github.com/aklofas/kicad-happy.git
-git fetch upstream && git merge upstream/main
-```
-
-### Running the audit
-
-```bash
-python3 kicad-happy/skills/kicad/scripts/analyze_schematic.py \
-    hardware/WirelessBERA.kicad_sch --output /tmp/sch.json
-
-python3 kicad-happy/skills/kicad/scripts/analyze_pcb.py \
-    hardware/WirelessBERA.kicad_pcb --full --output /tmp/pcb.json
-
-python3 kicad-happy/skills/kicad/scripts/cross_analysis.py \
-    --schematic /tmp/sch.json --pcb /tmp/pcb.json --output /tmp/cross.json
-
-python3 kicad-happy/skills/emc/scripts/analyze_emc.py \
-    --schematic /tmp/sch.json --pcb /tmp/pcb.json --output /tmp/emc.json
-```
-
----
-
-## Author
 
 Nathan Scheufele
