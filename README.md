@@ -22,7 +22,9 @@ brainstem response (ABR/BERA) measurements.
 |---|---|
 | [`hardware/`](hardware/) | KiCad 10 project, symbol/footprint library, LTspice simulations, fabrication outputs |
 | [`firmware/wireless_bera/`](firmware/wireless_bera/) | ESP-IDF firmware for the ESP32-S3 |
-| [`docs/`](docs/) | bring-up status, codec register reference, power architecture |
+| [`docs/`](docs/) | bring-up status, codec register reference, power architecture, assembly photos |
+| [`measurements/`](measurements/) | raw recordings (ECG/DRL, first ABR) and the Python recording/analysis tools |
+| [`report/`](report/) | Forschungspraxis report (LaTeX, MFE template) and its PDF |
 
 `hardware/datasheets/` holds the vendor PDFs for every part. It is deliberately
 kept out of git — the files are large and always re-downloadable — so a fresh

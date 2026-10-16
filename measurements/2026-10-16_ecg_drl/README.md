@@ -21,6 +21,14 @@ driven-right-leg (DRL) loop does to mains interference.
 | `2_drl_hand.csv` | green clip held in the right hand instead of on the electrode |
 | `3_drl_chest.csv` | green clip on the right lower rib electrode |
 | `4_drl_chest_repeat.csv` | as 3, repeated a few minutes later (gel settled longer) |
+| `5_apple_watch_parallel.csv` | 75 s, recorded in parallel with a 30 s Apple Watch ECG (lead I, started at 32.5 s); finger on the watch crown raised mains pickup to ~8.6 mVrms |
+| `6_eeg_attempt_electrode_off.npz` | failed 70 s head EEG attempt at 1 kHz: an electrode came off after ~10 s (keys `ch1`, `ch2` in volts at the codec, `ch2_rti`, `fs`) |
+
+Figures: `ecg_drl_comparison.png` (raw/filtered and spectra), `beat_morphology.png`
+(averaged beat against a typical lead-II beat — PR 153–157 ms, QRS 90 ms, QTc
+375–391 ms, all normal; the codec's default 0.96 Hz high-pass filter flattens the
+T wave and was removed numerically), `apple_watch_comparison.png` (RR intervals
+agree beat for beat, 0.2 ± 1.8 ms).
 
 ## File format
 
